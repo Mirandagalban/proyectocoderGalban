@@ -178,6 +178,11 @@ background-color: #ffe5ec;
   flex-direction: column;   
    }
   }
+
+  #carouselExampleFade {
+    padding: 50px;
+  }
+
   /*quienes-somos*/
 
   .imagen-empleada{
