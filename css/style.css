@@ -175,8 +175,6 @@ background-color: #ffe5ec;
   .container-grid-promo {
   display: flex; 
   flex-direction: column;
-  flex-wrap: wrap; 
-  margin: 0 50px;  
    }
   }
 
