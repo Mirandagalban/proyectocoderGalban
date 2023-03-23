@@ -145,7 +145,6 @@ background-color: #ffe5ec;
     grid-template-columns: auto auto;
     gap: 30px;
     padding: 0 100px;
-    margin: 0 30px;
   }
   
   .item-grid-promo {
@@ -175,9 +174,12 @@ background-color: #ffe5ec;
   @media (max-width: 700px) {
   .container-grid-promo {
   display: flex; 
-  flex-direction: column;   
+  flex-direction: column;
+  flex-wrap: wrap; 
+  margin: 0 50px;  
    }
   }
+
 
   #carouselExampleFade {
     padding: 50px;
