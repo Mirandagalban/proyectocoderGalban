@@ -232,69 +232,8 @@ background-color: #ffe5ec;
 
 /*servicios*/
 
-.servicios {
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-}
- .servicios h3 {
-  border: 2px solid #b5838d;
-  text-align: center;
-  padding: 20px;
-  display: flex;
- }
-  .tratamientos-corporales li {
-    list-style: none;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-   
-  .peluqueria li {
-    list-style: none;
-    text-align: center;
-  }
-
-  .manicuria li {
-    list-style: none;
-    text-align: center;
-  }
-
-  .footer ul li {
-    list-style: none;
-  }
-
-  /*formulario*/
-
-  .formulario{
-    display: inline;
-    margin-bottom: 30px;
-    margin-left:30px;
-  }
-  .formulario input{
-    display:block;
-    margin: 10px 20px ;
-
-  }
-  
-  .formulario-bottom {
-    margin: 30px;
-    display: inline-flex;
-    padding: 10px;
-    padding-inline: 10px;
-  }
-
-
-.ir-formulario {
-  display: flex;
-
-}
-  
 /*footer*/
-
+  
 .footer {
   display: flex;
   flex-direction: column;
@@ -303,3 +242,29 @@ background-color: #ffe5ec;
   justify-content: baseline;
   text-decoration: none;
 }
+ /*formulario*/
+  
+ .formulario{
+  display: inline;
+  margin-bottom: 30px;
+  margin-left:30px;
+}
+.formulario input{
+  display:block;
+  margin: 10px 20px ;
+
+}
+
+.formulario-bottom {
+  margin: 30px;
+  display: inline-flex;
+  padding: 10px;
+  padding-inline: 10px;
+}
+
+
+.ir-formulario {
+display: flex;
+
+}
+

@@ -1,0 +1,36 @@
+.servicios {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.servicios h3 {
+  border: 2px solid #b5838d;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+}
+.servicios-corporales {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.servicios-peluqueria {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.servicios-manicuria {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer ul li {
+  list-style: none;
+}/*# sourceMappingURL=main.css.map */
