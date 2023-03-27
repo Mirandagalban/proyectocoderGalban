@@ -124,6 +124,7 @@ background-color: #ffe5ec;
     display: flex ;
     margin: 50px;
     text-decoration: none;
+    justify-content: center;
   }
 
   .row img {
@@ -232,40 +233,38 @@ background-color: #ffe5ec;
 /*servicios*/
 
 .servicios {
-  margin: 0 20px;
-  padding: 0 20px;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: center;
   justify-content: center;
   gap: 20px;
 }
  .servicios h3 {
   border: 2px solid #b5838d;
-  padding: 20px;
-  margin: 30px;
   text-align: center;
+  padding: 20px;
+  display: flex;
  }
   .tratamientos-corporales li {
     list-style: none;
-    margin: 0 20px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
    
   .peluqueria li {
     list-style: none;
-    margin: 0 20px;
     text-align: center;
   }
 
   .manicuria li {
     list-style: none;
-    margin: 0 20px;
     text-align: center;
   }
 
-  .base {
-    margin: 50px;
+  .footer ul li {
+    list-style: none;
   }
 
   /*formulario*/
