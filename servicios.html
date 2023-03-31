@@ -9,7 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./sass/main.css">
-    <title>Servicios</title>
+    <title>Tratamientos corporales</title>
 </head>
 <body>
     <header>
@@ -21,9 +21,20 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="./servicios.html">Servicios</a>
-                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Servicios
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="./servicios.html"> Tratamientos corporales</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="./facial.html">Tratamientos faciales</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="./peluqueria.html">Peluqueria</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="./manicuria.html">Manicuria</a></li>
+    
+                    </ul>
                   <li class="nav-item">
                     <a class="nav-link" href="./promociones.html">Promociones</a>
                   </li>
@@ -38,44 +49,51 @@
             </div>
           </nav>
     </header>
-    <div>
-        <p><a href="./promociones.html"> Visita nuestras promociones! </a></p>
-    </div>
     </header>
 
-  <section class="servicios">
-     <div class="servicios-corporales">
-            <h4>Tratamientos corporales</h4>
-                 <p>Criolipolisis</p>
-                 <p>Depilación definitiva</p>
-                 <p>Peeling facial</p>
-                 <p>Plasma</p>
-     </div>
-     <div class="servicios-peluqueria" >
-         <h4>Peluquería</h4>
-                 <p> Corte </p>
-                 <p>Hidratación</p>
-                 <p>Color, balayage y highlights</p>
-                 <p>Keratina y botox</p>
-     </div>
-     <div class="servicios-manicuria">
-          <h4>Manicuria</h4>
-                 <p>Esmaltado semipermanente</p>
-                 <p>Capping</p>
-                 <p>Uñas esculpidas en gel</p>
-                 <p>Nail Art</p>
-     </div>
-</section>
-    <div class="ir-formulario" >
+  <section class="servicios-grid">
+      <div class="servicios-grid-titulo">
+        <h4>Tratamientos corporales</h4>
+      </div>
+      <div class="servicios-grid-img1">
+            <img src="./multimedia/crio-carrousel.jpg" alt="crio" width="300" height="200">
+      </div>
+      <div class="servicios-grid-info1">
+            <h6 >Criolipolisis</h6>
+            <p>La crioliólisis Cooltech es considerado el tratamiento médico no quirúrgico más efectivo en la actualidad para la eliminación permanente de la grasa o adiposidad localizada en múltiples zonas del cuerpo mediante un sistema de enfriamiento controlado.
+
+            Cooltech está diseñado para esculpir y rediseñar, de forma integral, la figura tanto de hombres como de mujeres.
+                    
+            Para conseguirlo, trabaja con diferentes aplicadores de vacío ajustable que actúan encapsulando en su interior el tejido graso de forma selectiva y disminuyendo de forma controlada su temperatura hasta -8°C.
+                    
+            Los tratamientos Cooltech han sido realizados en más de un millón de pacientes con más de un 95% de resultados satisfactorios.</p>
+      </div>
+      <div class="servicios-grid-info2">
+            <h6 >Mesoterapia corporal</h6>
+            <p>La mesoterapia consiste en la aplicación intradérmica de fármacos en pequeñas dosis en las zonas a tratar. Se logra así los máximos beneficios con los mínimos efectos adversos, ya que permite una liberación lenta y progresiva de las drogas aplicadas. Las fórmulas aplicadas deben ser personalizadas para cada paciente, combinando drogas en forma específica para cada tipo y grado de severidad de la patología, que debe ser determinada por el especialista.
+              El tratamiento se realiza en sesiones semanales de 30 minutos aproximadamente, con un mínimo de 10 a 12 sesiones, que se continúan luego con sesiones de mantenimiento periódicas. Puede combinarse con un tratamiento fisioterapia local y con actividad física graduada. La aplicación de mesoterapia no interacciona con otros tratamientos concomitantes, no impide la actividad física ni altera la actividad cotiana.</p>
+      </div>
+      <div class="servicios-grid-img2">
+            <img src="./multimedia/mesoterapia.jpg" alt="">
+      </div>
+      <div class="servicios-grid-img3">
+          <img src="./multimedia/body-serv.jpg" alt="bodyup">
+      </div>
+      <div class="servicios-grid-info3">  
+        <h6>Body Up</h6>
+        <p>Body Up Pro es un tratamiento revolucionario, que consiste en la generaración de ondas de pulso electromagnético indoloro de alta frecuencia, mediante la cual se realiza una estimulación neuromuscular que genera el levantamiento y reafirmación de glúteos, muslos, abdomen, mamas, tríceps, bíceps, cuadriceps, y cualquier otro segmento perisférico. Adicionalmente, en la zona tratada, se generar una circulación sanguínea por la estimulación muscular que finaliza en un mejoramiento de la tonicidad y el aspecto de la piel.</p>
+      </div>
+  </section>
+  <div class="link-promo">
+    <p><a href="./promociones.html"> Visita nuestras promociones! </a></p>
+</div>
+
+<div class="ir-formulario" >
         <a href="./formulario.html">Si tenes alguna consulta, comunicate con nosotras.</a> 
     </div>
     <footer class="footer">
     <div>
-        <ul>
-            <li>
-                <a href="https://www.instagram.com/megabeautyok/?hl=es" target="_blank"> Visitá nuestro Instagram! </a> 
-            </li>
-         </ul>
+          <p><a href="https://www.instagram.com/megabeautyok/?hl=es" target="_blank"> Visitá nuestro Instagram! </a> </p>
     </div>
 	    <span class="footer-copyright">
         MEGABEAUTY © 2023	

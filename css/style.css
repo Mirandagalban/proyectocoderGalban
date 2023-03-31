@@ -2,7 +2,16 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+a{
   text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+a:hover{
+  opacity: 0.69;
+  color: black;
+  text-decoration: underline;
 }
 
 .body {
@@ -62,7 +71,7 @@ background-color: #ffe5ec;
 }
 
 .encabezado.img {
-  width 100%;
+  width: 100%;
 }
 
 @media (max-widht:700px) {
@@ -252,16 +261,10 @@ background-color: #ffe5ec;
 
 /*servicios*/
 
+
 /*footer*/
   
-.footer {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  background-color: white;
-  justify-content: baseline;
-  text-decoration: none;
-}
+
  /*formulario*/
   
  .formulario{

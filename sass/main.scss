@@ -1,44 +1,186 @@
-.servicios {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
+/*servicios corporales*/
 
-    h4 {
-    border: 2px solid #b5838d;
-    text-align: center;
-    padding: 20px;
-    display: flex;
-   }
-   &-corporales {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-   }
-
-   &-peluqueria {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-
-
-   }
-
-   &-manicuria {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-
-   }
+.link-promo {
+  display: flex;
+  font-weight: 600;
+  color: black;
+  justify-content: end;
+  align-content: center;
+  padding: 0 20px;
+  font-size: larger
 }
-  
-  .footer ul li {
-      list-style: none;
+
+.servicios-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 70px 1fr 1fr 1fr;
+  margin: 100px;
+    
+  &-titulo {
+    grid-column: 1/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  background-color: #ffe5ec;
+  }
+
+    p {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      font-weight: 600;
+      color: black;
+      justify-content: center;
+      align-content: center;
+      padding: 20px;
+    }
+
+    h6 {
+      padding: 20px;
+      text-decoration: underline;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      padding: 50px;
+      border-radius: 25%;
+    }
+
+    &-info1 {
+      padding: 50px;
+    }
+    &-info2 {
+      padding: 50px;
+      background-color:  #ffe5ec;
+    }
+    &-info3 {
+      padding: 50px;
+  }
+
+  &-img2 {
+    background-color: #ffe5ec;
+  }
+}
+
+@media (max-width:700px)
+{ .servicios-grid {
+  display: flex;
+  flex-direction: column;
+  margin: 0%;
+ }
+}
+
+/*tratamientos faciales*/
+
+.servicios-grid {
+
+  &-hilos {
+    background-color: #ffe5ec;
+  }
+  &-hilos-img {
+    background-color: #ffe5ec;
+  }
+
+}
+
+/*manicuria*/
+
+.servicios-grid {
+  &-semi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     }
   
-   
+
+  &-capp {
+    
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: #ffe5ec;
+    
+  }
+  &-capp-img {
+    background-color: #ffe5ec;
+  }
+  &-esculpidas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+
+  /*footer*/ 
+
+  .footer {
+      background-color: #ffe5ec;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      text-decoration: none;
+      margin:none ;  
+      padding: none;  
+  }
+
+  /*formulario*/
+  
+ .formulario {
+  display: inline;
+  margin-bottom: 30px;
+  margin-left:30px;
+    input{
+  display:block;
+  margin: 10px 20px ;
+
+}
+ 
+
+&-bottom {
+  margin: 30px;
+  display: inline-flex;
+  padding: 10px;
+  padding-inline: 10px;
+}
+ }
+
+
+.ir-formulario {
+display: flex;
+justify-content: end;
+flex-direction: column;
+
+}
+
+ /*peluqueria*/
+.servicios-grid {
+
+  &-color-img {
+    background-color: #ffe5ec;
+  }
+  &-color {
+    background-color: #ffe5ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  } 
+  &-corte {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  }
+
+  &-botox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
