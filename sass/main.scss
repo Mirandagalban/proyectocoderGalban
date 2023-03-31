@@ -49,13 +49,25 @@
 
     &-info1 {
       padding: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
     }
     &-info2 {
       padding: 50px;
       background-color:  #ffe5ec;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
     }
     &-info3 {
       padding: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
   }
 
   &-img2 {
@@ -76,12 +88,28 @@
 .servicios-grid {
 
   &-hilos {
-    background-color: #ffe5ec;
+    background-color: #ffe5ec; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
   }
   &-hilos-img {
     background-color: #ffe5ec;
   }
-
+  &-peeling {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  &-radio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 
 /*manicuria*/

@@ -45,13 +45,25 @@
 }
 .servicios-grid-info1 {
   padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .servicios-grid-info2 {
   padding: 50px;
   background-color: #ffe5ec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .servicios-grid-info3 {
   padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .servicios-grid-img2 {
   background-color: #ffe5ec;
@@ -67,9 +79,25 @@
 /*tratamientos faciales*/
 .servicios-grid-hilos {
   background-color: #ffe5ec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .servicios-grid-hilos-img {
   background-color: #ffe5ec;
+}
+.servicios-grid-peeling {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.servicios-grid-radio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 /*manicuria*/
