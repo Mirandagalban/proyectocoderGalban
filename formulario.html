@@ -6,32 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./multimedia/logo.jpg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./sass/main.css">
 
     <title>¡Contactanos!</title>
 </head>
 <body>
-    <header class="logo">
-       <a href="./index.html"><img src="./multimedia/logo.jpg" width="100" height="100" alt="logo" ></a>
+    <header>
+       <nav class="navbar navbar-expand-lg bg-body fixed">
+        <div class="container-fluid">
+          <a href="./index.html"><img class="logo" src="./multimedia/logo.jpg" alt="logo" > </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Servicios
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./servicios.html"> Tratamientos corporales</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="./facial.html">Tratamientos faciales</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="./peluqueria.html">Peluqueria</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="./manicuria.html">Manicuria</a></li>
+
+                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="./promociones.html">Promociones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Quines-somos.html">Quienes somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="./formulario.html">Consultanos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
+
+
     <section class="formulario">
-        <h1>Dejanos tu consulta: </h1> 
-            <form action="./Mensaje-enviado.html">
-                <label for="name">Nombre</label>
-                <input type="text" name="" id="nombre" placeholder="Ingresar nombre" required>
-                <label for="Apellido">Apellido</label>
-                <input type="text" name="" id="Apellido" placeholder="Ingresar apellido">
-                <label for="email">Email</label>
-                <input type="text" name="" id="email" placeholder="Ingresar email" required>
-                <label for="Consulta">Dejanos tu consulta </label>
-                <textarea name="" id="consulta" cols="30" rows="5" placeholder="Dejanos tu consulta!"></textarea>
+        <h2>Dejanos tu consulta: </h2> 
+            <form class="formulario-body" action="./Mensaje-enviado.html">
+                <label class="formulario-elements-txt" for="name">Nombre</label>
+                <input class="formulario-elements" type="text" name="" id="nombre" placeholder="Ingresar nombre" required>
+                <label class="formulario-elements-txt" for="Apellido">Apellido</label>
+                <input  class="formulario-elements" type="text" name="" id="Apellido" placeholder="Ingresar apellido">
+                <label class="formulario-elements-txt" for="email">Email</label>
+                <input class="formulario-elements" type="email" name="" id="email" placeholder="Ingresar email" required>
+                <label class="formulario-elements-txt" for="Consulta">Dejanos tu consulta </label>
+                <textarea class="formulario-elements" name="" id="consulta" cols="30" rows="5" placeholder="Dejanos tu consulta!"></textarea>
+   
+        <input class="btn" type="submit" value="Enviar consulta">
+    </form>
     </section>
-    <div class="formulario-bottom">
-        <input type="submit" value="Enviar">
-        <input type="checkbox" name="opcion" id="1">Quiero recibir informacion sobre promociones.
-    </div>
-</form>
+
+
     <footer class="footer">
         <div>	     
             <p><a href="https://www.instagram.com/megabeautyok/?hl=es" target="_blank"> Visitá nuestro Instagram! </a> </p>
@@ -40,5 +76,7 @@
             MEGABEAUTY © 2023		
             </span>
          </footer>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
      </body>
- </html>
+ </html>    
