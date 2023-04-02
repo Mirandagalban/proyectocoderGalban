@@ -254,6 +254,17 @@ text-align: center;
     grid-template-rows: 50px;
     padding: 50px;
   }
+  .subtitulo-promo {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    color: #6d6875;
+    font-size: x-large;
+    font-size: 32px;
+   animation-name: tituloAnimation3;
+   animation-duration: 2s;
+  }
 
   .container-grid-promo {
     display: grid;
