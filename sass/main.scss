@@ -11,6 +11,16 @@
   font-size: larger
 }
 
+@keyframes tituloAnimation {
+  from {
+    color: black;
+    font-size: 0px;
+  }
+  to {
+    color: #534044;
+    font-size: 38px;
+  }
+}
 .servicios-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -22,8 +32,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  background-color: #ffe5ec;
-  }
+    background-color: #ffe5ec;
+    color: #534044;
+    animation-name: tituloAnimation;
+    animation-duration: 1s;
+    font-size: 38px;
+    }
 
     p {
       display: flex;
@@ -156,6 +170,7 @@
       margin: auto;
       width: 100%;
       display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
 
        .box figure {
         width: 100%;
@@ -173,6 +188,7 @@
             height: 90px;
             }
           }
+         
              .box h2 {
               font-size: 20px;
               font-weight: bold;
@@ -196,6 +212,7 @@
           display: inline-block;
           height: 45px;
           width: 45px;
+          max-height: 45px;
           color: black;
           margin-right: 10px;
           text-align: center;
@@ -307,9 +324,3 @@
         background-color: #6d6875;
       }
     }
-.ir-formulario {
-  display: flex;
-  justify-content: end;
-  flex-direction: column;
-  
-  }

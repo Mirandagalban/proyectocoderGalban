@@ -9,6 +9,16 @@
   font-size: larger;
 }
 
+@keyframes tituloAnimation {
+  from {
+    color: black;
+    font-size: 0px;
+  }
+  to {
+    color: #534044;
+    font-size: 38px;
+  }
+}
 .servicios-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -21,6 +31,10 @@
   justify-content: center;
   align-items: center;
   background-color: #ffe5ec;
+  color: #534044;
+  animation-name: tituloAnimation;
+  animation-duration: 1s;
+  font-size: 38px;
 }
 .servicios-grid p {
   display: flex;
@@ -134,6 +148,7 @@
   margin: auto;
   width: 100%;
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .pie-pagina .grupo-1 .box figure {
   width: 100%;
@@ -173,6 +188,7 @@
   display: inline-block;
   height: 45px;
   width: 45px;
+  max-height: 45px;
   color: black;
   margin-right: 10px;
   text-align: center;
@@ -267,10 +283,4 @@
 .formulario .btn:hover {
   width: 80%;
   background-color: #6d6875;
-}
-
-.ir-formulario {
-  display: flex;
-  justify-content: end;
-  flex-direction: column;
 }/*# sourceMappingURL=main.css.map */
