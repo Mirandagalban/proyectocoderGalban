@@ -15,7 +15,7 @@ a:hover{
 }
 
 .body {
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-family: serif;
 background-color: #ffe5ec;
 }
 
@@ -254,7 +254,22 @@ background-color: #ffe5ec;
   grid-row: 1/2;
   justify-content: center;
   align-items: center;
-
+  animation-name:tituloAnimation;
+  animation-duration: 1s;
+  color: #534044;
+  font-family: serif;
+  
+}
+@keyframes tituloAnimation {
+  from {
+    color: black;
+    font-size: 24px;
+  }
+  to {
+    color: #534044;
+    font-size: 30px;
+  }
+  
 }
 
 .staff-txt-1 {
