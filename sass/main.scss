@@ -60,6 +60,8 @@
       position: relative;
       padding: 70px;
       border-radius: 25%;
+      min-width: 200px;
+
     }
 
     &-info1 {
@@ -95,9 +97,14 @@
   display: flex;
   flex-direction: column;
   margin: 0%;
+
+  &-titulo {
+    font-size: 30px;
+    animation: none;
+    padding: 5px;
  }
 }
-
+}
 /*tratamientos faciales*/
 
 .servicios-grid {
@@ -112,6 +119,8 @@
   }
   &-hilos-img {
     background-color: #ffe5ec;
+    min-width: 200px;
+
   }
   &-peeling {
     display: flex;
@@ -149,6 +158,8 @@
   }
   &-capp-img {
     background-color: #ffe5ec;
+    min-width: 200px;
+
   }
   &-esculpidas{
     display: flex;
@@ -210,8 +221,6 @@
         .red-social a {
           text-decoration:none;
           display: inline-block;
-          height: 45px;
-          width: 45px;
           max-height: 45px;
           color: black;
           margin-right: 10px;
@@ -238,6 +247,8 @@
 
   &-color-img {
     background-color: #ffe5ec;
+    min-width: 200px;
+
   }
   &-color {
     background-color: #ffe5ec;
@@ -269,7 +280,6 @@
   margin-bottom: 100px;
   width: 400px;
   padding: 30px;
-  background-color:#f5cac3;
 
 @media (max-width:700px) 
   { .formulario {
@@ -288,7 +298,6 @@
     &-elements {
       width: 80%;
       border-radius: 4px;
-      border: solid 3px #6d6875;
       transition: all .5s;
 
     }
@@ -317,7 +326,9 @@
       background-color: white;
       margin-top: 10px;
       transition: all 1s;
+      border: black 2px solid;
     }
+
 
      & .btn:hover {
         width: 80%;

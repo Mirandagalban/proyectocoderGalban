@@ -169,6 +169,9 @@ text-align: center;
     text-align: center;
     font-size: 20px;
   }
+  .bienvenido .nosotros {
+    margin-bottom: 10px;
+  }
 }
 
 .encabezado-multimedia-grid {
@@ -323,6 +326,7 @@ text-align: center;
     width: 100%;
     border: #6d6875 solid 3px;
     height: 70%;
+    min-width: 200px;
   }
   .staff {
     display: grid;

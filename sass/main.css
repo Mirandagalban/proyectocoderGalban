@@ -56,6 +56,7 @@
   position: relative;
   padding: 70px;
   border-radius: 25%;
+  min-width: 200px;
 }
 .servicios-grid-info1 {
   padding: 50px;
@@ -89,6 +90,11 @@
     flex-direction: column;
     margin: 0%;
   }
+  .servicios-grid-titulo {
+    font-size: 30px;
+    animation: none;
+    padding: 5px;
+  }
 }
 /*tratamientos faciales*/
 .servicios-grid-hilos {
@@ -100,6 +106,7 @@
 }
 .servicios-grid-hilos-img {
   background-color: #ffe5ec;
+  min-width: 200px;
 }
 .servicios-grid-peeling {
   display: flex;
@@ -130,6 +137,7 @@
 }
 .servicios-grid-capp-img {
   background-color: #ffe5ec;
+  min-width: 200px;
 }
 .servicios-grid-esculpidas {
   display: flex;
@@ -143,7 +151,6 @@
   width: 100%;
   background-color: #ffe5ec;
   font-family: sans-serif;
-  padding: 20px 0;
 }
 .pie-pagina .grupo-1 {
   margin: auto;
@@ -187,8 +194,6 @@
 .pie-pagina .grupo-1 .red-social a {
   text-decoration: none;
   display: inline-block;
-  height: 45px;
-  width: 45px;
   max-height: 45px;
   color: black;
   margin-right: 10px;
@@ -210,6 +215,7 @@
 /*peluqueria*/
 .servicios-grid-color-img {
   background-color: #ffe5ec;
+  min-width: 200px;
 }
 .servicios-grid-color {
   background-color: #ffe5ec;
@@ -238,7 +244,6 @@
   margin-bottom: 100px;
   width: 400px;
   padding: 30px;
-  background-color: #f5cac3;
 }
 @media (max-width: 700px) {
   .formulario .formulario {
@@ -256,7 +261,6 @@
 .formulario-elements {
   width: 80%;
   border-radius: 4px;
-  border: solid 3px #6d6875;
   transition: all 0.5s;
 }
 .formulario-elements:hover {
@@ -280,6 +284,7 @@
   background-color: white;
   margin-top: 10px;
   transition: all 1s;
+  border: black 2px solid;
 }
 .formulario .btn:hover {
   width: 80%;
