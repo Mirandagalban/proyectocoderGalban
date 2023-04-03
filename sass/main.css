@@ -27,14 +27,18 @@
 }
 .servicios-grid-titulo {
   grid-column: 1/3;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #ffe5ec;
   color: #534044;
   animation-name: tituloAnimation;
   animation-duration: 1s;
   font-size: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffe5ec;
+  width: 100%;
+  height: 100%;
+  font-family: serif;
 }
 .servicios-grid p {
   display: flex;
@@ -146,6 +150,108 @@
   flex-direction: column;
 }
 
+/*peluqueria*/
+.servicios-grid-color-img {
+  background-color: #ffe5ec;
+  min-width: 200px;
+}
+.servicios-grid-color {
+  background-color: #ffe5ec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.servicios-grid-corte {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.servicios-grid-botox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*formulario*/
+.bienvenido-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffe5ec;
+  width: 100%;
+  height: 100%;
+  font-family: serif;
+  margin: 0 auto;
+  padding: 20px;
+  padding-bottom: 20px;
+}
+.bienvenido-form h1 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-weight: 500;
+}
+.bienvenido-form p {
+  font-size: 18px;
+  text-align: center;
+  width: 40%;
+  font-family: helvetica;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-bottom: 100px;
+  width: 50%;
+  padding: 30px;
+}
+.formulario-elements {
+  width: 80%;
+  border-radius: 4px;
+  transition: all 0.5s;
+}
+.formulario-elements:hover {
+  width: 100%;
+  background-color: #ffe5ec;
+}
+.formulario-elements-txt {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  padding: 10px;
+}
+.formulario-body {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px;
+  justify-content: center;
+  align-items: center;
+}
+.formulario .btn {
+  width: 35%;
+  background-color: white;
+  margin-top: 10px;
+  transition: all 1s;
+  border: black 2px solid;
+  padding: 5px;
+}
+.formulario .btn:hover {
+  width: 50%;
+  background-color: #6d6875;
+}
+
+@media (max-width: 700px) {
+  .formulario {
+    width: 100%;
+    animation: none;
+  }
+}
 /*footer*/
 .pie-pagina {
   width: 100%;
@@ -157,6 +263,7 @@
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 10px;
 }
 .pie-pagina .grupo-1 .box figure {
   width: 100%;
@@ -210,83 +317,4 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-
-/*peluqueria*/
-.servicios-grid-color-img {
-  background-color: #ffe5ec;
-  min-width: 200px;
-}
-.servicios-grid-color {
-  background-color: #ffe5ec;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.servicios-grid-corte {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.servicios-grid-botox {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-/*formulario*/
-.formulario {
-  margin: auto;
-  margin-top: 20px;
-  margin-bottom: 100px;
-  width: 400px;
-  padding: 30px;
-}
-@media (max-width: 700px) {
-  .formulario .formulario {
-    width: 100%;
-    display: flex;
-    margin: 10%;
-  }
-}
-.formulario h2 {
-  display: flex;
-  justify-content: center;
-  font-size: 32px;
-  align-items: center;
-}
-.formulario-elements {
-  width: 80%;
-  border-radius: 4px;
-  transition: all 0.5s;
-}
-.formulario-elements:hover {
-  width: 100%;
-  background-color: #ffe5ec;
-}
-.formulario-elements-txt {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-weight: bold;
-  padding: 10px;
-}
-.formulario-body {
-  display: flex;
-  flex-direction: column;
-  margin: 10px 20px;
-  justify-content: center;
-  align-items: center;
-}
-.formulario .btn {
-  width: 60%;
-  background-color: white;
-  margin-top: 10px;
-  transition: all 1s;
-  border: black 2px solid;
-}
-.formulario .btn:hover {
-  width: 80%;
-  background-color: #6d6875;
 }/*# sourceMappingURL=main.css.map */
