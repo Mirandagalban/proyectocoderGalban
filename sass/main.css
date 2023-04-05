@@ -473,12 +473,12 @@ a:hover {
     display: flex;
     flex-direction: column;
   }
+  .subtitulo-promo {
+    animation: none;
+  }
 }
 #carouselExampleFade {
   padding: 50px;
-}
-#carouselExampleFade button {
-  color: black;
 }
 
 /*quienes-somos*/
@@ -573,8 +573,11 @@ a:hover {
     margin: 5%;
     padding: 5px;
   }
-  .staff img {
+  .staff .imagen-empleada {
     width: 60%;
+  }
+  .staff .encabezado-staff h1 {
+    animation: none;
   }
 }
 @keyframes tituloAnimation {

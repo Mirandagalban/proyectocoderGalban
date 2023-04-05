@@ -493,14 +493,13 @@ font-family: Arial, Helvetica, sans-serif;
   display: flex; 
   flex-direction: column;
    }
+   .subtitulo-promo {
+    animation: none;
+   }
   }
   
   #carouselExampleFade {
     padding: 50px;
-
-      & button {
-        color: black;
-      }
   }
 
   /*quienes-somos*/
@@ -603,11 +602,18 @@ font-family: Arial, Helvetica, sans-serif;
       flex-direction: column;
       margin: 5%;
       padding: 5px;
-    }
-    .staff img {
-      width: 60%;
+
+        .imagen-empleada {
+          width: 60%;
+        }
+
+    .encabezado-staff {
+      h1 {
+        animation: none;
+      }
     }
   }
+}
   
 @keyframes tituloAnimation {
   from {
