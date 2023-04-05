@@ -60,7 +60,7 @@ font-family: Arial, Helvetica, sans-serif;
 
  @media (max-width: 700px) {
   .navbar-toggler{
-    margin-right: 30px;
+    margin-right: 20px;
   }
  }
 
@@ -385,24 +385,17 @@ font-family: Arial, Helvetica, sans-serif;
 
     &-elements {
       width: 80%;
-      border-radius: 4px;
-      transition: all .5s;
+      border: 2px solid black;
     }
 
     &-elements::placeholder {
       padding: 10px;
     }
 
-    &-elements:hover {
-      width: 100%;
-      background-color: #ffe5ec;
-    }
     &-elements-txt {
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      font-weight:bold;
       padding: 10px;
-
-
+      font-family: $titulo-font;
+      font-size: larger;
     }
     
     &-body{
@@ -417,26 +410,13 @@ font-family: Arial, Helvetica, sans-serif;
       width: 35%;
       background-color: white;
       margin-top: 10px;
-      transition: all .5s;
       border: black 2px solid;
-      padding: 5px;
+      padding: 3px;
     }
-
-     & .btn:hover {
-        width: 50%;
-      }
-    }
-  
+  }
     @media (max-width:700px) {
       .formulario {
         width: 100%;
-        animation: none;     
-        & .btn {
-          transition: none;
-        }
-        &-elements {
-          transition: none;
-        }
       }
         .bienvenido-form{
          p {
@@ -492,12 +472,12 @@ font-family: Arial, Helvetica, sans-serif;
   .container-grid-promo {
   display: flex; 
   flex-direction: column;
-   }
+   
    .subtitulo-promo {
     animation: none;
    }
   }
-  
+}
   #carouselExampleFade {
     padding: 50px;
   }
