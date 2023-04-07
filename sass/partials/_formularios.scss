@@ -1,0 +1,76 @@
+/*formulario*/
+
+.bienvenido-form {
+    @include tituloh1;
+    margin: 0 auto;
+    padding:20px;
+    padding-bottom: 20px;
+  
+        h1 {
+          display: flex;
+          text-align: center;
+          justify-content: center;
+          align-items: center;
+          padding: 10px;
+          font-size: 42px;
+        }
+        p {
+          font-size: 18px;
+          text-align: center;
+          width: 40%;
+          font-family: helvetica;
+        }
+  }
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 100px;
+    width: 50%;
+    padding: 30px;
+  
+      &-elements {
+        width: 80%;
+        border: 2px solid black;
+      }
+  
+      &-elements::placeholder {
+        padding: 10px;
+      }
+  
+      &-elements-txt {
+        padding: 10px;
+        font-family: $titulo-font;
+        font-size: larger;
+      }
+      
+      &-body{
+        display:flex;
+        flex-direction: column;
+        margin: 10px 20px ;
+        justify-content: center;
+        align-items: center;
+        }
+    
+      .btn {
+        width: 35%;
+        background-color: white;
+        margin-top: 10px;
+        border: black 2px solid;
+        padding: 3px;
+      }
+    }
+      @media (max-width:700px) {
+        .formulario {
+          width: 100%;
+        }
+          .bienvenido-form{
+           p {
+            width: 70%;
+            font-size: 14px;
+          }
+          h1 {
+            font-size: 26px;
+          }
+        }
+      }
